@@ -108,6 +108,9 @@ body {
   line-height: 1;
 }
 
+div.certificates {
+}
+
 ol,
 ul {
   list-style: none;
@@ -124,6 +127,11 @@ q:before,
 q:after {
   content: "";
   content: none;
+  padding: 10px 5px;
+  border-left: 3px solid #ccc;
+  display: inline-block;
+  color: #666;
+  background: #eee;
 }
 
 table {
