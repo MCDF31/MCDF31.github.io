@@ -124,6 +124,11 @@ ul {
 blockquote,
 q {
   quotes: none;
+  padding: 10px 5px;
+  border-left: 3px solid #ccc;
+  display: inline-block;
+  color: #666;
+  background: #eee;
 }
 
 blockquote:before,
