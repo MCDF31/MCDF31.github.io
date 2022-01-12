@@ -108,7 +108,12 @@ body {
   line-height: 1;
 }
 
-div.certificates {
+.certificates {
+  padding: 10px 5px;
+  border-left: 3px solid #ccc;
+  display: inline-block;
+  color: #666;
+  background: #eee;
 }
 
 ol,
