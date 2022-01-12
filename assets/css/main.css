@@ -109,6 +109,7 @@ body {
 }
 
 .certificates {
+  text-indent: 10%;
   padding: 10px 5px;
   border-left: 3px solid #ccc;
   display: inline-block;
