@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
   font-size: 20px;
   background-color: white;
   color: #000;
@@ -69,7 +70,7 @@ p {
 .main-section header {
   color: black;
   font-size: 30px;
-  padding-top; 30px;
+  padding-top: 30px;
 }
 
 .main-section p {
@@ -88,7 +89,7 @@ p {
   #main-doc {
     flex-direction: row;
   }
-  
+
   #navbar {
     width: 300px;
     height: 100vh;
@@ -98,31 +99,31 @@ p {
     position: fixed;
     padding: 0;
   }
-  
-  .divider{
+
+  .divider {
     width: 100%;
     margin: 0;
     min-height: 80px;
-    background-color: ;
+    /* background-color: ; */
   }
-  
+
   #navbar header,
   #navbar ul {
     padding-left: 40px;
   }
-  
+
   #navbar header {
     color: black;
     padding-left: 40px;
     padding-right: 30px;
     padding-bottom: 30px;
-    background-color:;
+    /* background-color:; */
   }
-  
+
   #navbar ul li {
     padding-top: 10px;
   }
-  
+
   .content {
     margin-left: 350px;
   }
