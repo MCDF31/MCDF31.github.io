@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+
+	<title>M-code Website</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+	<!-- Twitter Card Meta Data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@Mcosta215">
+	<meta name="twitter:creator" content="@Mcosta215">
+	<meta name="twitter:title" content="M">
+	<meta name="twitter:description" content="Technical Analysis, Software Engineering, and Freedom.">
+	<meta name="twitter:image" content="https://twitter.com/Mcosta215">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic|Montserrat:700,400' rel='stylesheet'
+		type='text/css'>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/loader.css" />
+	<link rel="stylesheet" type="text/css" href="css/framework.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="css/colors/blue.css" media="screen">
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/red.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/green.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/pink.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/orange.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/gray.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/purple.css" media="screen"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/colors/steel.css" media="screen"> -->
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+	<!-- Loader -->
+	<div class="loader center dark">
+		<div class="loader-content">
+			<img src="images/logo.png" width="138" height="25" alt="logo"><br>
+			<span class="progress-container"><span class="progress"></span></span>
+		</div>
+		<script type="text/javascript">
+			$(window).load(function () {
+				$('.loader').delay(1000).fadeOut('slow')
+			});
+		</script>
+	</div><!-- END LOADER -->
+
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<div class="header-inner">
+			<a class="logo" href="#"><img src="images/logo.png" alt="logo" width="138" height="25"></a>
+		</div>
+
+		<!-- Menu Button -->
+		<div class="menu-button">
+			<span class="before"></span>
+			<span class="main"></span>
+			<span class="after"></span>
+		</div>
+	</header><!-- END Header -->
+
+	<!-- Navigation -->
+	<nav class="push-nav push-right" style="background-image: url(images/navigation.jpg);">
+		<!-- Logo -->
+		<div class="logo-nav"><a href="#"><img src="images/logo.png" alt="logo" width="138" height="25"></a></div>
+		<div class="footer-nav">
+			<!-- Social -->
+			<ul class="social">
+				<li><a href="#"><i class="social-icon-linkedin"></i></a></li>
+				<li><a href="#"><i class="social-icon-twitter"></i></a></li>
+			</ul>
+
+			<!-- Copyright -->
+			<h6>Copyright © 2022 M-code</h6>
+		</div>
+
+		<!-- Links -->
+		<ul class="navigation">
+			<li><a class="scroll-to" href="#section1">Home</a></li>
+			<li><a class="scroll-to" href="#section2">About</a></li>
+			<li><a class="scroll-to" href="#section5">Work</a></li>
+			<li><a class="scroll-to" href="#section9">Contact</a></li>
+		</ul>
+	</nav><!-- END Navigation -->
+
+	<!-- Main Wrap -->
+	<div class="navigation-overlay"></div>
+	<div id="wrap">
+
+		<!-- Hero -->
+		<section id="section1" class="hero video-background dark center nav-trigger">
+			<!-- Video Container -->
+			<div id="bgVideo" data-0="transform: translate3d(0px, 0px, 0px);"
+				data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div>
+
+			<!-- Hero Content -->
+			<div class="container hero-content">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
+					<h1>Welcome to &lt;M-code/&gt</h1>
+					<span class="separator"></span>
+					<h5>Design &amp; development.</h5>
+				</div>
+			</div>
+
+			<!-- Scroll Icon -->
+			<a class="icon-scroll" href="#section2" data-0="opacity: 1;" data-100="opacity: 0;">
+				<i class="icon-basic-magic-mouse"></i>
+			</a>
+		</section><!-- END Hero -->
+
+		<!-- Feature boxes -->
+		<section id="section2" class="container center padded">
+			<!-- Title -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+					<h4>What we do.</h4>
+					<p class="sub-heading">We create experiences that transform brands, grow businesses and make
+						people’s lives better.</p>
+				</div>
+			</div>
+
+			<!-- Boxes -->
+			<div class="row">
+				<!-- 1 -->
+				<div class="feature-box col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+					<i class="icon-medium icon-basic-lightbulb"></i>
+					<span class="separator-small"></span>
+					<h5>Idea</h5>
+					<p>From integrated advertising campaigns to service design, we approach our projects with strategic
+						and creative thinking.</p>
+				</div>
+				<!-- 2 -->
+				<div class="feature-box col-sm-4 wow fadeInUp" data-wow-delay="0.8s">
+					<i class="icon-medium icon-basic-laptop"></i>
+					<span class="separator-small"></span>
+					<h5>Concept</h5>
+					<p>We partner with our clients to create big ideas and translate them into innovative digital
+						experiences.</p>
+				</div>
+				<!-- 3 -->
+				<div class="feature-box col-sm-4 wow fadeInUp" data-wow-delay="1s">
+					<i class="icon-medium icon-basic-keyboard"></i>
+					<span class="separator-small"></span>
+					<h5>Deployment</h5>
+					<p>From prototyping through front &amp; back end engineering to quality testing, we use the latest
+						technologies.</p>
+				</div>
+			</div>
+
+			<!-- Call to action -->
+			<div class="row">
+				<div class="col-xs-12 wow fadeInUp call-to-action" data-wow-delay="1s">
+					<a href="#section5" class="button">view work</a>
+				</div>
+			</div>
+		</section><!-- END Feature Boxes -->
+
+
+		<!-- Begin Progress Slider -->
+		<section id="section4" class="center padded black">
+			<!-- Title -->
+			<div>
+				<p class="sub-heading wow fadeInRight" data-wow-delay="0.5s">The process.</p>
+			</div>
+
+			<!-- Slider -->
+			<div class="royalSlider rsProgress">
+				<!-- Slide 1 -->
+				<div class="rsContent wow fadeInRight" data-wow-delay="0.8s">
+					<!-- Progress Bar -->
+					<span class="progress-bar start"></span>
+
+					<div class="container">
+						<!-- Icon -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 icon">
+								<i class="icon-large icon-basic-book-pencil"></i>
+							</div>
+						</div>
+
+						<!-- Heading -->
+						<div class="row">
+							<div class="col-xs-12">
+								<h2>Planning</h2>
+							</div>
+						</div>
+
+						<!-- Text -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+								<p>During the exploration stage, we dive into our clients’ business requirements and
+									competitive landscape.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tab Control -->
+					<span class="rsTmb">01</span>
+				</div><!-- END Slide -->
+
+				<!-- Slide 2 -->
+				<div class="rsContent">
+					<!-- Progress Bar -->
+					<span class="progress-bar"></span>
+
+					<div class="container">
+						<!-- Icon -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 icon">
+								<i class="icon-large icon-basic-display"></i>
+							</div>
+						</div>
+
+						<!-- Heading -->
+						<div class="row">
+							<div class="col-xs-12">
+								<h2>Development</h2>
+							</div>
+						</div>
+
+						<!-- Text -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+								<p>Once we have a clear strategy and we know what we want to achieve, it’s time for our
+									designers to roll up their sleeves.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tab Control -->
+					<span class="rsTmb">02</span>
+				</div><!-- END Slide -->
+
+				<!-- Slide 3 -->
+				<div class="rsContent">
+					<!-- Progress Bar -->
+					<span class="progress-bar finish"></span>
+
+					<div class="container">
+						<!-- Icon -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 icon">
+								<i class="icon-large icon-basic-flag1"></i>
+							</div>
+						</div>
+
+						<!-- Heading -->
+						<div class="row">
+							<div class="col-xs-12">
+								<h2>Launch</h2>
+							</div>
+						</div>
+
+						<!-- Text -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 ">
+								<p>Following thorough quality assurance involving you and our technical team the project
+									is finally ready to be released.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tab Control -->
+					<span class="rsTmb">03</span>
+				</div>
+			</div><!-- END Slider -->
+		</section><!-- END Progress Slider -->
+
+		<!-- Begin Portfolio -->
+		<section id="section5" class="center padded nb">
+			<div class="container">
+				<!-- Title -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 wow fadeInUp"
+						data-wow-delay="0.3s">
+						<h4>The work.</h4>
+					</div>
+				</div>
+
+				<!-- Filters -->
+				<div class="row">
+					<ul class="col-xs-12 filters">
+						<li data-filter="*" class="is-checked wow fadeInUp" data-wow-delay="0.5s">All</li>
+						<li data-filter=".programming" class="wow fadeInUp" data-wow-delay="0.8s">Programming</li>
+						<li data-filter=".web-design" class="wow fadeInUp" data-wow-delay="1s">Web Design</li>
+						<li data-filter=".cryptocurrency" class="wow fadeInUp" data-wow-delay="1.2s">Cryptocurrency</li>
+					</ul>
+				</div>
+			</div><!-- END Container -->
+
+			<div class="thumbnails dark">
+				<div class="thumbnail programming">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="loan_calculator.html">Loan Calculator</a>
+					</div>
+					<img src="images/portfolio/loan.jpg" alt="thumbnail">
+				</div>
+
+
+				<div class="thumbnail web-design">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="survey.html">Survey Page</a>
+					</div>
+					<img src="images/portfolio/survey_photo.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail cryptocurrency">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="https://www.mnttoken.com">Cryptocurrency</a>
+					</div>
+					<img src="images/portfolio/ada_bull.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail programming">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="arithmetic_formatter.html">Arithmetic Formatter</a>
+					</div>
+					<img src="images/portfolio/pic07.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail web-design">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="elon_tribute.html">Tribute Page</a>
+					</div>
+					<img src="images/portfolio/Elon_Musk.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail programming">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="shape_calculator.html">Shape Calculator</a>
+					</div>
+					<img src="images/portfolio/shape_calculator.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail web-design">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="technical_documentation.html">Technical Documentation Page</a>
+					</div>
+					<img src="images/portfolio/ada_coin.jpg" alt="thumbnail">
+				</div>
+				<div class="thumbnail programming">
+					<div class="overlay"></div>
+					<div class="project-info">
+						<a class="button dark" href="coming-soon.html">Budget App</a>
+					</div>
+					<img src="images/portfolio/pic02.jpg" alt="thumbnail">
+				</div>
+			</div><!-- END Thumbnails -->
+		</section><!-- END Portfolio -->
+
+		<!-- Begin Team Block -->
+		<section id="section6" class="container center padded">
+			<!-- Title -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+					<h4>About Me.</h4>
+					<p class="sub-heading">Meet the human behind the &lt;M-code/&gt brand.</p>
+				</div>
+			</div>
+
+			<!-- Photos -->
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="1.0s">
+					<!-- Photo -->
+					<img class="team-photo" src="images/team/marcos.png">
+
+					<!-- Team Info -->
+					<div class="team-info clearfix">
+						<span class="contact-information">
+							<p>Marcos Costa</p>
+							<h6>Software Engineer</h6>
+						</span>
+						<div class="mail"><a href="mailto:marcos@mnttoken.com"><i class="icon-basic-mail"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 call-to-action wow fadeInUp" data-wow-delay="1s">
+					<p>I come from a professional sports background. I have been a climber for over 29 year and for the
+						past several
+						15 years I have been clibing the worlds most challenging mountains professionally. This journey
+						has taken me all
+						across the globe and pushed my boundaries on every front physically and mentally. I also had
+						plenty of time to explore other
+						interesting fields in life and technology is one of the fields that mesmerizes me. A famous
+						quote that always comes to mind is:
+
+					<div class="quote">
+						<center>
+							<blockquote> "Any sufficiently advanced technology is indistinguishable from magic"
+							</blockquote>
+						</center>
+					</div>
+
+					In 1962, science fiction writer Arthur C. Clarke wrote in his book “Profiles of the Future: An
+					Inquiry into the Limits of the Possible” where he formulated his famous Three Laws, of which the
+					third law is the best-known and most widely cited.
+					This quote has stuck with me throught the years as I wondered what it would be like to produce
+					"magic". Being a software developer is a bit like that. On one side we create
+					software on hundreds and sometimes thousands of lines of code and on the other end "magic" come out!
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 twitter call-to-action">
+					<h5>latest <i class="social-icon-twitter"></i> tweet</h5>
+					<span class="separator-small"></span>
+					<div id="twit-feed"></div>
+					<a class="button" href="#section9">get in touch</a>
+				</div>
+			</div>
+		</section><!-- END Team Block -->
+
+
+
+		<!-- Begin Contact -->
+		<section id="section9" class="contact center">
+			<!-- Switch -->
+			<div class="switch dark"></div>
+
+	</div>
+
+	<!-- Contact Form -->
+	<div class="map-overlay padded dark">
+		<div class="container">
+			<!-- Title -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+					<h4>Contact.</h4>
+					<p class="sub-heading">What can I help you with?</p>
+				</div>
+			</div>
+
+			<!-- Form -->
+			<div class="row">
+				<div class="col-xs-12 col-lg-10 col-lg-offset-1">
+					<form method="post" action="post.php" name="contactform" id="contactform" class="clearfix">
+						<fieldset>
+							<div class="float-left">
+								<div class="form-field name wow fadeInUp" data-wow-delay="0.5s">
+									<label for="name">Name</label>
+									<span><input type="text" name="name" id="name"
+											onfocus="if(this.value == 'Your Name') { this.value = ''; }"
+											onblur="if(this.value == '') { this.value = 'Your Name'; }"
+											value="Your Name" /></span>
+								</div>
+								<div class="form-field email wow fadeInUp" data-wow-delay="0.8s">
+									<label for="email">Email</label>
+									<span><input type="email" name="email" id="email"
+											onfocus="if(this.value == 'E-mail Address') { this.value = ''; }"
+											onblur="if(this.value == '') { this.value = 'E-mail Address'; }"
+											value="E-mail Address" /></span>
+								</div>
+							</div>
+							<div class="float-right">
+								<div class="form-field message wow fadeInUp" data-wow-delay="1s">
+									<label for="message">Message</label>
+									<span><textarea name="message" id="message"
+											onfocus="if(this.value == 'If you wish to work with us or just get in touch - do it.') { this.value = ''; }"
+											onblur="if(this.value == '') { this.value = 'If you wish to work with us or just get in touch - do it.'; }">If you wish to work with us or just get in touch - do it.</textarea></span>
+								</div>
+							</div>
+						</fieldset>
+						<div class="form-click wow fadeInUp" data-wow-delay="1s">
+							<button id="submit">Send Message</button>
+						</div>
+						<div id="alert">
+							<div class="notification error clearfix">
+								<p><strong>Attention!</strong> Please enter your message.</p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div><!-- END Container -->
+	</div><!-- END Contact Form -->
+
+
+
+	</section><!-- END Contact -->
+
+	<!-- Begin Footer -->
+	<footer class="center black">
+		<div class="container">
+			<!-- Social -->
+			<div class="row">
+				<ul class="social col-xs-12">
+					<li class="icon solid fa-phone">(+41) 079 252 0570</li>
+					<li class="icon solid fa-envelope"><a href="gmail.com">marcos@mnttoken.com</a></li>
+					<li class="icon brands fa-twitter"><a href="Twitter">https://twitter.com/Mcosta215</a></li>
+					<li class="icon brands fa-linkedin"><a
+							href="https://www.linkedin.com/in/marcos-costa-a276242/">linkedin</a></li>
+				</ul>
+			</div>
+
+			<!-- Copyright -->
+			<div class="row">
+				<div class="col-xs-12">
+					<h6>copyright © 2022 M</h6>
+				</div>
+			</div>
+		</div><!-- END Container -->
+	</footer><!-- END Footer -->
+
+	</div><!-- END Main Wrap -->
+
+
+	<!-- IE 8 PAGE -->
+	<div class="modern-browser">
+		<div class="modern-container center dark">
+			<img src="images/logo.png" alt="logo">
+			<h1>Welcome to M.</h1>
+			<span class="separator"></span>
+			<p>Sorry, our website doesn't support your web-browser.<br>Maybe something more modern would do the trick.
+			</p>
+			<a href="http://www.google.com/chrome/" target="_blank" class="button">download chrome</a>
+		</div>
+	</div><!-- END IE 8 PAGE -->
+
+	<!-- Javascript -->
+	<script src="js/retina.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/navigation.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/plugins.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
